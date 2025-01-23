@@ -5,7 +5,8 @@ import { FaRegStarHalfStroke } from "react-icons/fa6";
 
 
 const NewsCard = ({ news }) => {
-    const { title, image_url, details, _id, author, rating } = news;
+ const { title, image_url, details, _id, author, rating } = news;
+
     return (
         <div>
             <div className="card bg-base-100 mb-16 ">
@@ -34,7 +35,7 @@ const NewsCard = ({ news }) => {
                     }
                 </div>
                 <div className="border"></div>
-                <div className="flex space-x-4 mt-2 items-center">
+                <div className="flex space-x-4 mt-2 items-center mx-8">
                     <div className="flex space-x-2">
                         <FaStar />
                         <FaStar />

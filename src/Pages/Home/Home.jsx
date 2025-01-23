@@ -5,9 +5,11 @@ import Navbar from "../Shared/Navbar/Navbar";
 import RightSideNav from "../Shared/RightSideNav/RightSideNav";
 import BreakingNews from "./BreakingNews";
 import NewsCard from "../NewsCard/NewsCard";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
     const news = useLoaderData();
+    const slicedNews = news.slice(0, 3);
 
     return (
         <div>
@@ -18,16 +20,19 @@ const Home = () => {
                 <div><LeftSideNav></LeftSideNav> </div>
                 <div className="md:col-span-2 ">
                     {
-                        news.map(aNews => <NewsCard
-                        key={aNews._id}
-                        news = {aNews}
-                        ></NewsCard> )
+                        slicedNews.map(aNews => <NewsCard
+                            key={aNews._id}
+                            news={aNews}
+                        ></NewsCard>)
                     }
                 </div>
                 <div > <RightSideNav></RightSideNav>   </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };
 
 export default Home;
+
+

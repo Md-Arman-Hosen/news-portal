@@ -1,0 +1,24 @@
+[
+    {
+      "_id": "1",
+      "title": "Bayern Slams Authorities Over Flight Delay to Club World Cup",
+      "category": "Sports",
+      "published_date": "2022-01-04",
+      "image_url": "https://img.freepik.com/free-photo/man-looking-football-game_23-2149015567.jpg?t=st=1737668076~exp=1737671676~hmac=cdeb0aa06e2f00b38bebb505b548eac1db5cbb5c91af42b67d34c1e1b2eb5f35&w=1380"
+    },
+    {
+      "_id": "2",
+      "title": "Tech Giants Reveal Plans for AI-Powered Healthcare",
+      "category": "Technology",
+      "published_date": "2022-01-03",
+      "image_url": "https://img.freepik.com/free-photo/face-recognition-personal-identification-collage_23-2150165591.jpg?t=st=1737668158~exp=1737671758~hmac=56df6364439499e902ec7dd14f5f7d38920277ac7f51b1fd19c1c450705cbf2d&w=1380"
+    },
+    {
+      "_id": "3",
+      "title": "Local Artists Join Forces for a Creative Exhibition",
+      "category": "Art",
+      "published_date": "2022-01-02",
+      "image_url": "https://img.freepik.com/free-photo/people-working-together-animation-studio_23-2149207974.jpg?t=st=1737668205~exp=1737671805~hmac=dff4d3641e5775b10696ed7f02e1ac8e668b6dcaa2bbe77cc12e0bdaa934e1d9&w=1380"
+    }
+  ]
+  
