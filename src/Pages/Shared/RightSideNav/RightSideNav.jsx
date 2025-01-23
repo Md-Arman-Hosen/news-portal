@@ -2,6 +2,7 @@ import { FaFacebook, FaGithub, FaGoogle, FaInstagram, FaTwitter } from "react-ic
 import qZone1 from "../../../assets/swimming.png"
 import qZone2 from "../../../assets/class.png"
 import qZone3 from "../../../assets/playground.png"
+import qZone4 from "../../../assets/bg.png"
 const RightSideNav = () => {
     return (
         <div>
@@ -34,6 +35,9 @@ const RightSideNav = () => {
                 <img src={qZone1} alt="" />
                 <img src={qZone2} alt="" />
                 <img src={qZone3} alt="" />
+            </div>
+            <div className="p-4 space-y-3 mb-6">
+                <img src={qZone4} alt="" />
             </div>
         </div>
     );
