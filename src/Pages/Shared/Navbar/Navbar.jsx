@@ -46,7 +46,7 @@ const Navbar = () => {
                     <img src={userDefaultPicture} alt="" />
                     </div>
                 </div>
-                <Link  className="text-white border px-5 py-5 pt-1 pb-1 bg-red-600" to="/">Login</Link>
+                <Link  className="text-white border px-5 py-5 pt-1 pb-1 bg-red-600" to="login">Login</Link>
             </div>
         </div>
     );
